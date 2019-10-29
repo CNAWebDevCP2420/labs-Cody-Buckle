@@ -11,7 +11,7 @@
   <?php 
     $showGuestBook = readfile("guestbook.txt");
 
-    echo "<pre>$showGuestBook<pre>\n";
+    echo "<pre>$showGuestBook<pre>";
   ?>
 </body>
 
