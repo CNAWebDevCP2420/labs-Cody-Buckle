@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Bug Reports</title>
+</head>
+
+<body>
+  <h1>Software Development Bug Reports</h1>
+  <p>Fill out the form below with details about experienced bugs. Please include all fields.</p>
+  <form method = "POST" action = "SubmitBugReport.php">
+      <p>Product Name: <input type = "text" name = "prodName" /></p>
+      <p>Version Number: <input type = "text" name = "prodVer" /></p>
+      <p>Hardware Type: <input type = "text" name = "hardware" /></p>
+      <p>Operating System: <br /><input type = "radio" name = "os" value = "windows" />Windows<br />
+                           <input type = "radio" name = "os" value = "mac" />MAC<br />
+                           <input type = "radio" name = "os" value = "linux" />Linux<br /></p>
+      <p>Frequency of Occurence: <br /><input type = "radio" name = "freq" value = "often"/>Often<br />
+                                 <input type = "radio" name = "freq" value = "sometimes"/>Sometimes<br />
+                                 <input type = "radio" name = "freq" value = "not often"/>Not Often<br /></p>
+      <p>Proposed Solutions: <input type = "textbox" name = "pSolutions"/></p>
+      <p><input type = "reset" value = "Clear"/><input type = "submit" value = "Submit"/></p>  
+  </form>
+</body>
+
+</html>
